@@ -2,3 +2,6 @@
 /stories
 /node_modules
 /.storybook
+/scripts
+/config
+/.idea
