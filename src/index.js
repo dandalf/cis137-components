@@ -1,5 +1,5 @@
-import TemperatureConverter from './components/TemperatureConverter';
+const TemperatureConverter = require('./components/TemperatureConverter');
 
-module.exports = {
+export default {
 	TemperatureConverter,
 };
