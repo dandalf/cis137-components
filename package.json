@@ -11,6 +11,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
+    "prepublish": "yarn build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },

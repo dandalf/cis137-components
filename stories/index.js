@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf, action, linkTo } from '@kadira/storybook';
-import TemperatureConverter from '../components/TemperatureConverter';
+import TemperatureConverter from '../src/components/TemperatureConverter';
 import './sample.css';
 
 storiesOf('TemperatureConverter', module)
