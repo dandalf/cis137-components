@@ -43,14 +43,19 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "babel source --presets babel-preset-es2015 --out-dir distribution",
+    "build": "babel src --presets=es2017,stage-3,react --out-dir build",
     "test": "node scripts/test.js --env=jsdom",
     "prepublish": "yarn build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "@kadira/storybook": "^2.21.0"
+    "@kadira/storybook": "^2.21.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "./build/index.js",
@@ -98,13 +103,5 @@
       "web.jsx",
       "jsx"
     ]
-  },
-  "babel": {
-    "presets": [
-      "react-app"
-    ]
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   }
 }
