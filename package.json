@@ -1,0 +1,36 @@
+{
+  "name": "cis137-components",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "./components/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandalf/cis137-components.git"
+  },
+  "keywords": [
+    "cis137"
+  ],
+  "author": "Dan Rusk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dandalf/cis137-components/issues"
+  },
+  "homepage": "https://github.com/dandalf/cis137-components#readme"
+}
